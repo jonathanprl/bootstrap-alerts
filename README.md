@@ -4,11 +4,13 @@
 
 A very basic extension to Bootstrap 3 alerts which I built to help display ajax response statuses in a suitable manner. Alerts can be called via jquery and will display nicely on the page, including multiple alerts at a time.
 
+## Example
+
+[Codepen Example] (http://codepen.io/jonnerz/pen/bNEXjm)
+
 ## Usage
 
 `$(document).alert(status, message, duration)`
-
-### Example
 
 ```
 $('#myBtn').click(function() {
