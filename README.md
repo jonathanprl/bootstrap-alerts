@@ -12,12 +12,14 @@ $('#myBtn').click(function() {
 });
 ```
 
-## Options
+### Options
 
 `$(document).alert(status, message, duration)`
 
 `status` - A bootstrap status type/class (success, warning, danger, info).
+
 `message` - The message to display. Can include HTML.
+
 `duration` `default: 3000ms` - How long the alert shows for in `ms`.
 
 ## Creator
