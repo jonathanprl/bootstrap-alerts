@@ -1,0 +1,75 @@
+<!doctype html>
+
+    <!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+    <!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+    <!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+    <!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+    <!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap 3 Alerts Example</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+
+        <style>
+            .alert-wrapper {
+                position: absolute;
+
+                width: 600px;
+                left: 50%;
+                margin-left: -300px;
+
+                -webkit-transition: all ease 0.6s;
+                -o-transition: all ease 0.6s;
+                transition: all ease 0.6s;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-2">
+                    <button class="btn btn-success btn-block">Show Alert</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-danger btn-block">Show Alert</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-warning btn-block">Show Alert</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-info btn-block">Show Alert</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.0.min.js'>\x3C/script>")</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="bootstrap-alerts.js"></script>
+
+        <script type="text/javascript">
+            $(document).on('click', '.btn-success', function() {
+                $(document).alert("success", "<strong>Success!</strong> You have produced an alert. Try showing multiple alerts.");
+            });
+
+            $(document).on('click', '.btn-warning', function() {
+                $(document).alert("warning", "<strong>Warning!</strong> You have produced an alert. Try showing multiple alerts.");
+            });
+
+            $(document).on('click', '.btn-danger', function() {
+                $(document).alert("danger", "<strong>Danger!</strong> You have produced an alert. Try showing multiple alerts.");
+            });
+
+            $(document).on('click', '.btn-info', function() {
+                $(document).alert("info", "<strong>Information</strong> You have produced an alert. Try showing multiple alerts.");
+            });
+        </script>
+
+    </body>
+</html>

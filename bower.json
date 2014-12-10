@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-alerts",
+  "version": "1.0.0",
+  "description": "An unofficial Bootstrap 3 plugin which extends alerts.",
+  "author": {
+    "name": "Jonathan Lambert",
+    "email": "jonathan@swiftping.co.uk"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/jonnerz/bootstrap-alerts",
+  "main": "./bootstrap-alerts.js",
+  "keywords": [
+    "twitter",
+    "bootstrap",
+    "alerts",
+    "messages"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.0.0",
+    "jquery": ">= 1.9.0"
+  }
+}
