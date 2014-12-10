@@ -6,13 +6,15 @@ A very basic extension to Bootstrap 3 alerts which I built to help display ajax 
 
 ## Usage
 
-```$('#myBtn').click(function() {
+```
+$('#myBtn').click(function() {
     $(document).alert("danger", "<strong>Danger</strong> You have produced an alert!");
 });
 ```
+
 ## Options
 
-`alert(status, message, duration)`
+`$(document).alert(status, message, duration)`
 
 `status` - A bootstrap status type/class (success, warning, danger, info).
 `message` - The message to display. Can include HTML.
