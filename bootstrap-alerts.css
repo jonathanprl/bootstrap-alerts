@@ -1,0 +1,6 @@
+.alert-wrapper {
+	position: absolute;
+	width: 400px;
+	left: 50%;
+	argin-left: -200px;
+}
