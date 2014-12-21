@@ -9,6 +9,13 @@
   "license": "MIT",
   "homepage": "https://github.com/jonnerz/bootstrap-alerts",
   "main": "./bootstrap-alerts.js",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "keywords": [
     "twitter",
     "bootstrap",
@@ -17,6 +24,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.0.0",
-    "jquery": ">= 1.9.0"
-  }
+    "jquery": ">= 1.9.0",
+    "jquery-ui": "~1.11.2"
+  },
 }
